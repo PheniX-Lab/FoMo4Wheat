@@ -1,0 +1,26 @@
+name: FoMo4Wheat
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+  - defaults
+  - pytorch
+  - nvidia
+  - xformers
+  - conda-forge
+show_channel_urls: true
+default_channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+dependencies:
+  - python=3.11
+  - pytorch::pytorch=2.5.1
+  - pytorch::pytorch-cuda=12.1
+  - pytorch::torchvision
+  - omegaconf
+  - torchmetrics
+  - fvcore
+  - iopath
+  - xformers::xformers
+  - pip
+  - pip:
+    - git+https://github.com/facebookincubator/submitit
+    - --extra-index-url https://pypi.nvidia.com
+    - cuml-cu11
