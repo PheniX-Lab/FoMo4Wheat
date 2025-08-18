@@ -15,5 +15,11 @@ conda env create -f conda.yaml
 conda activate FoMo4Wheat
 ```
 # Training
-
+```
+MKL_NUM_THREADS=8 OMP_NUM_THREADS=8 python dinov2/run/train/
+    --nodes 6 \
+    --config-file dinov2/configs/train/vitl16_short.yaml \
+    --output-dir <PATH/TO/OUTPUT/DIR> \
+    train.dataset_path=TestDataset:split=TRAIN:root=<PATH/TO/DATASET>:extra=<PATH/TO/DATASET>
+```
 # License
