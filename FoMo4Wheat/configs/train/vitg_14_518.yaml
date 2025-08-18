@@ -1,0 +1,32 @@
+dino:
+  head_n_prototypes: 131072
+  head_bottleneck_dim: 384
+ibot:
+  separate_head: true
+  head_n_prototypes: 131072
+train:
+  batch_size_per_gpu: 2
+  dataset_path: ImageNet22k
+  centering: sinkhorn_knopp
+student:
+  arch: vit_giant2
+  patch_size: 14
+  drop_path_rate: 0.4
+  ffn_layer: swiglufused
+  block_chunks: 4
+  pretrained_weights: ''
+teacher:
+  momentum_teacher: 0.994
+  pretrained_weights: ''
+optim:
+  epochs: 75
+  weight_decay_end: 0.2
+  base_lr: 1e-06  # learning rate for a batch size of 1024
+  min_lr: 1e-07
+  warmup_epochs: 0
+  layerwise_decay: 1.0
+  freeze_last_layer_epochs: 0
+  freeze_backbone_layer_epochs: 20
+crops:
+  local_crops_size: 98
+  global_crops_size: 518
