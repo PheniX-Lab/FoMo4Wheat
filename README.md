@@ -6,4 +6,4 @@ Vision-driven in-field crop monitoring is essential for advancing digital agricu
 (./video.mp4)
 # Method
 <img width="1256" height="1460" alt="image" src="https://github.com/user-attachments/assets/89b475ab-d8c3-4997-a4ec-bd4062b2f986" />
-Fig 1. Overview of ImAg4Wheat dataset and FoMo4Wheat model. a, Global distribution of the ImAg4Wheat dataset.
+Fig 1. Overview of ImAg4Wheat dataset and FoMo4Wheat model.
