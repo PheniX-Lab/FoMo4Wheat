@@ -29,7 +29,7 @@ ImAg4Wheat comprises 2,500,000 million images over 2,000 wheat genotypes cultiva
 
 # Pretrained models
 | model                | # of params  | download  | 
-| ---------------------| ----------- | --------------| 
+| :---------------------:| -----------: |:--------------:| 
 | ViT-B/14             |   86 M   | [FoMo4Wheat_base.pth](https://huggingface.co/PheniX-Lab/FoMo4Wheat/blob/main/weight/FoMo4Wheat_base.pth) |
 | ViT-L/14             |   300 M  | [FoMo4Wheat_large.pth](https://huggingface.co/PheniX-Lab/FoMo4Wheat/blob/main/weight/FoMo4Wheat_large.pth) |
 | ViT-G/14             |   1,100 M  | [FoMo4Wheat_giant.pth](https://huggingface.co/PheniX-Lab/FoMo4Wheat/blob/main/weight/FoMo4Wheat_giant.pth) | 
