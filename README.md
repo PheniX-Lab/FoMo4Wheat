@@ -18,7 +18,7 @@ conda activate FoMo4Wheat
 ```
 MKL_NUM_THREADS=8 OMP_NUM_THREADS=8 python FoMo4Wheat/run/train/
     --nodes 6 \
-    --config-file FoMo4Wheat/configs/train/vitl16_short.yaml \
+    --config-file FoMo4Wheat/configs/train/vitg_14_224.yaml \
     --output-dir <PATH/TO/OUTPUT/DIR> \
     train.dataset_path=TestDataset:split=TRAIN:root=<PATH/TO/DATASET>:extra=<PATH/TO/DATASET>
 ```
