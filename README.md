@@ -7,7 +7,8 @@ Vision-driven in-field crop monitoring is essential for advancing digital agricu
 
 🎥 **Visualization of the three first principal components of the patch features of all frames, mapped to RGB values.**
 
-[![Watch the demo](https://img.shields.io/badge/▶️-Click%20to%20Play-blue)](https://r2.phenix-lab.com/image_pca/iframe-player.html?video=https://r2.phenix-lab.com/image_pca/image_pca.m3u8)
+<video src="https://r2.phenix-lab.com/image_pca/image_pca.mp4"
+       controls autoplay loop muted width="640"></video>
 
 </div>
 
