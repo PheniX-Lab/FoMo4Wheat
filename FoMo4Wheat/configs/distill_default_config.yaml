@@ -89,7 +89,7 @@ teacher:
   drop_path_rate: 0.4
   layerscale: 1.0e-05
   drop_path_uniform: true
-  pretrained_weights: '/hpc/home/2023222003/Phenix/wheat/foundation_model/distill_pretrain/518_vitg/teacher_checkpoint.pth'
+  pretrained_weights: ''
   ffn_layer: "swiglufused"
   block_chunks: 4
   qkv_bias: true
