@@ -42,3 +42,5 @@ MKL_NUM_THREADS=8 OMP_NUM_THREADS=8 python FoMo4Wheat/run/train/
     --output-dir <PATH/TO/OUTPUT/DIR> \
     train.dataset_path=TestDataset:split=TRAIN:root=<PATH/TO/DATASET>:extra=<PATH/TO/DATASET>
 ```
+# License
+
