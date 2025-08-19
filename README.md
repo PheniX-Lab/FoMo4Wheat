@@ -14,6 +14,8 @@ The training and evaluation code is developed with PyTorch 2.5.1 and requires Li
 conda env create -f conda.yaml
 conda activate FoMo4Wheat
 ```
+# Data Preparation
+
 # Training
 ```
 MKL_NUM_THREADS=8 OMP_NUM_THREADS=8 python FoMo4Wheat/run/train/
