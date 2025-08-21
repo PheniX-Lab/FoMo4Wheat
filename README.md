@@ -33,7 +33,8 @@ ImAg4Wheat comprises 2,500,000 million images over 2,000 wheat genotypes cultiva
 | ViT-G/14             |   1,100 M  | [FoMo4Wheat_giant.pth](https://huggingface.co/PheniX-Lab/FoMo4Wheat/blob/main/weight/FoMo4Wheat_giant.pth) | 
 
 # Training
-Fast setup: training FoMo4Wheat on ImAg4Wheat
+**Training FoMo4Wheat on ImAg4Wheat**
+
 Run FoMo4Wheat training on 6 A800-80GB nodes (48 GPUs) in a SLURM cluster environment with submitit:
 ```
 MKL_NUM_THREADS=8 OMP_NUM_THREADS=8 python FoMo4Wheat/run/train/
