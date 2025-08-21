@@ -23,9 +23,7 @@ conda activate FoMo4Wheat
 ```
 
 # Data Preparation
-ImAg4Wheat comprises 2,500,000 million images over 2,000 wheat genotypes cultivated under 500 distinct environmental conditions across 30 sites in 10 countries spanning a decade, covering the full crop growth cycle.
-
-[ImAg4Wheat](https://huggingface.co/datasets/PheniX-Lab/ImAg4Wheat)
+ImAg4Wheat comprises 2,500,000 million images over 2,000 wheat genotypes cultivated under 500 distinct environmental conditions across 30 sites in 10 countries spanning a decade, covering the full crop growth cycle.[ImAg4Wheat](https://huggingface.co/datasets/PheniX-Lab/ImAg4Wheat)
 
 # Pretrained models
 | model                | # of params  | download  | 
@@ -35,6 +33,8 @@ ImAg4Wheat comprises 2,500,000 million images over 2,000 wheat genotypes cultiva
 | ViT-G/14             |   1,100 M  | [FoMo4Wheat_giant.pth](https://huggingface.co/PheniX-Lab/FoMo4Wheat/blob/main/weight/FoMo4Wheat_giant.pth) | 
 
 # Training
+Fast setup: training FoMo4Wheat on ImAg4Wheat
+Run FoMo4Wheat training on 6 A800-80GB nodes (48 GPUs) in a SLURM cluster environment with submitit:
 ```
 MKL_NUM_THREADS=8 OMP_NUM_THREADS=8 python FoMo4Wheat/run/train/
     --nodes 6 \
