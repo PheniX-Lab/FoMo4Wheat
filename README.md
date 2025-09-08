@@ -8,7 +8,7 @@ Vision-driven in-field crop monitoring is essential for advancing digital agricu
 The demonstration website for inferring embeddings is located at [Demo](https://fomo4wheat.phenix-lab.com/)
 
 https://github.com/user-attachments/assets/2f2f21b4-4638-41c6-8bdf-37d8ad458eb6
-
+.
 🎥 **Visualization of Unlabeled wheat features.**
 
 # Method
