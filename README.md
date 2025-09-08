@@ -45,6 +45,6 @@ MKL_NUM_THREADS=8 OMP_NUM_THREADS=8 python FoMo4Wheat/run/train/
 ```
 
 # License
-FoMo4Wheat code and model weights are released under the Creative Commons Attribution 4.0 International. See LICENSE for additional details.
+FoMo4Wheat code and model weights are released under the MIT License. See LICENSE for additional details.
 
 # Citation
