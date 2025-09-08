@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/2f2f21b4-4638-41c6-8bdf-37d8ad458eb6
 🎥 **Visualization of Unlabeled wheat features.**
 
 # Method
-<img width="1256" height="1460" alt="image" src="https://github.com/user-attachments/assets/89b475ab-d8c3-4997-a4ec-bd4062b2f986" />
+<img width="1267" height="1459" alt="Fig 1" src="https://github.com/user-attachments/assets/1d095d9b-2de4-4080-b68c-7da83f12edc1" />
 <b>Fig 1.</b> Overview of ImAg4Wheat dataset and FoMo4Wheat model.
 
 # Installation
