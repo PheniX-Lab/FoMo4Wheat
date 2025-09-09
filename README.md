@@ -48,3 +48,12 @@ MKL_NUM_THREADS=8 OMP_NUM_THREADS=8 python FoMo4Wheat/run/train/
 FoMo4Wheat code and model weights are released under the MIT License. See LICENSE for additional details.
 
 # Citation
+If you use our project in your research or wish to refer to the results of the project, please use the following BibTeX entry.
+
+```bibtex
+@article{2025FoMo4Wheat,
+  title={FoMo4Wheat: Toward reliable crop vision foundation models with globally curated data}, 
+  author={Bing Han, Chen Zhu, Dong Han, Rui Yu, Songliang Cao, Jianhui Wu, Scott Chapman, Zijian Wang, Bangyou Zheng, Wei Guo, Marie Weiss, Benoit de Solan, Andreas Hund, Lukas Roth,  Kirchgessner Norbert, Andrea Visioni, Yufeng Ge, Wenjuan Li, Alexis Comar, Dong Jiang, Dejun Han, Fred Baret, Yanfeng Ding, Hao Lu and Shouyang Liu},
+  journal={arXiv:2509.06907},
+  year={2025}
+}
