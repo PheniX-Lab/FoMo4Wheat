@@ -56,5 +56,5 @@ If you use our project in your research or wish to refer to the results of the p
   author={Bing Han, Chen Zhu, Dong Han, Rui Yu, Songliang Cao, Jianhui Wu, Scott Chapman, Zijian Wang, Bangyou Zheng, Wei Guo, Marie Weiss, Benoit de Solan, Andreas Hund, Lukas Roth,  Kirchgessner Norbert, Andrea Visioni, Yufeng Ge, Wenjuan Li, Alexis Comar, Dong Jiang, Dejun Han, Fred Baret, Yanfeng Ding, Hao Lu and Shouyang Liu},
   journal={arXiv:2509.06907},
   year={2025}
-  note={contact：Shouyang Liu (shouyang.liu@njau.edu.cn)，Hao Lu (hlu@hust.edu.cn)，Yanfeng Ding (dingyf@njau.edu.cn)}
+  note={contact：Shouyang Liu (shouyang.liu\@njau.edu.cn)，Hao Lu (hlu\@hust.edu.cn)，Yanfeng Ding (dingyf\@njau.edu.cn)}
 }
