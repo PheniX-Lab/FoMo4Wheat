@@ -1,6 +1,5 @@
 # FoMo4Wheat 
-The official implementation of the paper **FoMo4Wheat: Toward reliable crop vision foundation models with globally curated data**.
-
+The official implementation of the paper **FoMo4Wheat: Toward reliable crop vision foundation models with globally curated data**. [Paper](https://arxiv.org/abs/2509.06907)
 Contact：Shouyang Liu (shouyang.liu@njau.edu.cn)，Hao Lu (hlu@hust.edu.cn)，Yanfeng Ding (dingyf@njau.edu.cn)
 
 # Abstract
