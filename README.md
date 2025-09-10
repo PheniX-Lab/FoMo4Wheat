@@ -48,6 +48,7 @@ MKL_NUM_THREADS=8 OMP_NUM_THREADS=8 python FoMo4Wheat/run/train/
 # License
 FoMo4Wheat code and model weights are released under the MIT License. See LICENSE for additional details.
 
+
 # Citation
 If you use our project in your research or wish to refer to the results of the project, please use the following BibTeX entry.
 
@@ -59,3 +60,8 @@ If you use our project in your research or wish to refer to the results of the p
   year={2025}
   note={contact：Shouyang Liu (shouyang.liu@njau.edu.cn)，Hao Lu (hlu@hust.edu.cn)，Yanfeng Ding (dingyf@njau.edu.cn)}
 }
+```
+
+# collaborators 
+<img width="1929" height="1057" alt="logo" src="https://github.com/user-attachments/assets/6bee265b-8a2d-4ae7-aeec-5cb71a29818e" />
+
