@@ -1,6 +1,8 @@
 # FoMo4Wheat 
 The official implementation of the paper **FoMo4Wheat: Toward reliable crop vision foundation models with globally curated data**.
 
+**Contact：Shouyang Liu (shouyang.liu@njau.edu.cn)，Hao Lu (hlu@hust.edu.cn)，Yanfeng Ding (dingyf@njau.edu.cn)**
+
 # Abstract
 Vision-driven in-field crop monitoring is essential for advancing digital agriculture whether supporting commercial decisions on-farm or augmenting research experiments in breeding and agronomy. Existing crop vision models struggle to generalize across fine-scale, highly variable canopy structures, and fluctuating outdoor environments. In this work, we present FoMo4Wheat, one of the first crop-orientated vision foundation models and demonstrate that delivers strong performance across a wide range of agricultural vision tasks. Centered on wheat, the most globally significant food crop, we curated ImAg4Wheat—the largest and most diverse wheat image dataset to date. It comprises 2.5 million high-resolution images collected over a decade from breeding and experimental fields, spanning more than 2,000 genotypes and 500 distinct environmental conditions across 30 global sites. A suite of FoMo4Wheat models was pre-trained using self-supervised learning on this dataset. Benchmark results across ten crop-related downstream tasks show that FoMo4Wheat consistently outperforms state-of-the-art models trained on general-domain datasets. Beyond strong cross-task generalization within wheat crops, FoMo4Wheat is highly robust in limited-data regimes but on previously unseen crop data. Notably, it contributes significantly to vision tasks in rice and multiplw crop/weed images, highlighting its cross-crop adaptability. In delivering one of the first open-source foundation models for wheat, our results demonstrate the value of such crop-specific foundation models that will support the development of versatile high-performing vision systems in crop breeding and precision agriculture. 
 
@@ -58,10 +60,9 @@ If you use our project in your research or wish to refer to the results of the p
   author={Bing Han, Chen Zhu, Dong Han, Rui Yu, Songliang Cao, Jianhui Wu, Scott Chapman, Zijian Wang, Bangyou Zheng, Wei Guo, Marie Weiss, Benoit de Solan, Andreas Hund, Lukas Roth,  Kirchgessner Norbert, Andrea Visioni, Yufeng Ge, Wenjuan Li, Alexis Comar, Dong Jiang, Dejun Han, Fred Baret, Yanfeng Ding, Hao Lu and Shouyang Liu},
   journal={arXiv:2509.06907},
   year={2025}
-  note={contact：Shouyang Liu (shouyang.liu@njau.edu.cn)，Hao Lu (hlu@hust.edu.cn)，Yanfeng Ding (dingyf@njau.edu.cn)}
 }
 ```
 
-# collaborators 
+# Collaborators 
 <img width="1929" height="1057" alt="logo" src="https://github.com/user-attachments/assets/6bee265b-8a2d-4ae7-aeec-5cb71a29818e" />
 
