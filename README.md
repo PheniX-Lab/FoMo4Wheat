@@ -26,7 +26,7 @@ conda activate FoMo4Wheat
 
 # Data Preparation
 ImAg4Wheat comprises 2,500,000 million images over 2,000 wheat genotypes cultivated under 500 distinct environmental conditions across 30 sites in 10 countries spanning a decade, covering the full crop growth cycle. [ImAg4Wheat](https://huggingface.co/datasets/PheniX-Lab/ImAg4Wheat)
-(Note: The complete dataset will be made publicly available after the peer-review process of the associated paper is completed.)
+(**Note: ​The complete dataset will be made publicly accessible upon formal publication of the associated research paper.**)
 
 # Pretrained models
 | model                | # of params  | download  | 
