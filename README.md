@@ -47,6 +47,9 @@ MKL_NUM_THREADS=8 OMP_NUM_THREADS=8 python FoMo4Wheat/run/train/
     train.dataset_path=TestDataset:split=TRAIN:root=<PATH/TO/DATASET>:extra=<PATH/TO/DATASET>
 ```
 
+# Benchmark datasets
+We leverage publicly available, self-collected, and internationally collaborated datasets tailored to six downstream wheat vision tasks, two rice vision tasks, and two generic crop vision tasks. The rice- and crop-related tasks aim to justify whether the vision wheat foundation model can generalize to other crop species. The six wheat vision tasks include wheat growth stage classification, wheat disease classification, wheat head detection, UAV-based wheat spike detection, leaf tip counting, and wheat organ segmentation. The two rice vision tasks are comprised of rice leaf tip counting and rice organ segmentation. The two crop vision tasks are multi-crop segmentation and crop and weed segmentation.[Benchmark](https://huggingface.co/PheniX-Lab/FoMo4Wheat/tree/main/Benchmark)
+
 # License
 FoMo4Wheat code and model weights are released under the MIT License. See LICENSE for additional details.
 
